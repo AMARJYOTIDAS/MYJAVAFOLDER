@@ -18,10 +18,10 @@ public class linkedlist2 {
         //if(head == null ){
           //  System.out.println("list is not created");
        // }
-        Node newNode= new Node(data);
+        Node newNode = new Node(data);
          newNode.next=head;
          head = newNode;
-         System.out.println("list is creat");
+         System.out.println("list is create");
 
         }
     // Insert at end
@@ -47,7 +47,7 @@ public class linkedlist2 {
        // Node head;
         Node newNode = new Node(data);
 
-        if(head==null){
+        if(head == null){
             System.out.println("list is not created");
             return;
         }
