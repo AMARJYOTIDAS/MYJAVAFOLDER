@@ -12,11 +12,13 @@ public class mystack {
         System.out.println("the stack is full");
         return;
     }
-     System.out.println("enter your data" + data  );
     Scanner scanner = new Scanner(System.in);
+    int data = scanner.nextInt();
+     System.out.println("enter your data = " + data  );
+    
     
     stack[top] = data;
-    top = top+1;
+    top = top + 1;
 }
 public static void main (String[] args){
     mystack stack = new mystack();
